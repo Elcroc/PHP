@@ -1,5 +1,7 @@
 <?php
-include_once("helper/url.php");
+include_once("helpers/url.php");
+include_once("data/categories.php");
+include_once("data/posts.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +10,7 @@ include_once("helper/url.php");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" ?<?= $BASE_URL ?>href="css/styles.css">
+    <link rel="stylesheet" href="<?= $BASE_URL ?>/css/style.css">    
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
 
 </head>
